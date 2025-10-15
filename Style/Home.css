@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Galindo&family=Gamja+Flower&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Pacifico&family=Patrick+Hand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gamja Flower', sans-serif;
+}
+
+.container {
+    background-color: #EFEEEA;
+    height: auto;
+    min-height: auto;
+    padding: 60px 0;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.6rem 3rem;
+    background-color: #EFEEEA;
+}
+
+.navbar-logo {
+    font-size: 30px;
+    font-weight: 800;
+    padding-left: 3rem;
+    padding-top: 10px;
+    color: #273F4F;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    font-size: 18px;
+    border: solid 2px #273F4F;
+    border-radius: 5rem;
+    padding: 0.5rem 1rem;
+    right: 24.5rem;
+    position: relative;
+    background-color: #273F4F;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.305);
+}
+
+.navbar-menu li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 900;
+}
+
+.navbar-menu li a:hover {
+    color: #FE7743;
+    transition: 0.2s ease-in;
+    text-decoration: underline;
+}
+
+.content {
+    text-align: center;
+}
+
+h1 {
+    font-size: 45px;
+    margin-bottom: 1rem;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    color: #273F4F;
+}
+
+.p-home {
+    font-size: 25px;
+    line-height: 1.1;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: 500;
+    color: #273F4F;
+}
+
+.image-container {
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+.image-container img {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    object-position: top;
+    bottom: 3rem;
+    z-index: 0;
+}
+
+.about {
+    background: #273F4F;
+    height: 100%;
+    min-height: auto;
+    width: 100%;
+    min-height: auto;
+    padding: 12rem 0px;
+}
+.content-about {
+    gap: 20px;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 45px;
+    margin-bottom: 1rem;
+    align-items: center;
+    font-weight: 800;
+    color: white;
+    padding-left: 34rem;
+}
+
+.p-about {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    font-weight: 500;
+    justify-content: center;
+    color: white;
+    padding-left: 34rem;
+}
+
+.btn-about {
+    font-size: 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border-radius: 5rem;
+    font-weight: 700;
+    padding-left: 34rem;
+}
+
+.btn-about:hover {
+    color: #FE7743;
+    transition: 0.2s ease-in-out;
+    text-decoration: underline;
+}
